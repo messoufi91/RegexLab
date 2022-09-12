@@ -1,0 +1,52 @@
+[
+  {
+    "Expression": "mail@mail.com",
+    "Pattern": "^[0-9]{1,2}\\\\/[0-9]{1,2}\\\\/[0-9]{4}$\"",
+    "IsMatch": false
+  },
+  {
+    "Expression": "10",
+    "Pattern": "^([0-9]*)(\\\\*)$",
+    "IsMatch": true
+  },
+  {
+    "Expression": "0660115548",
+    "Pattern": "^\\\\+?[1-9][0-9]{7,14}$",
+    "IsMatch": false
+  },
+  {
+    "Expression": "+33660135548",
+    "Pattern": "^\\\\+?[1-9][0-9]{7,14}$",
+    "IsMatch": false
+  },
+  {
+    "Expression": "+12223334444",
+    "Pattern": "^\\\\+?[1-9][0-9]{7,14}$",
+    "IsMatch": false
+  },
+  {
+    "Expression": "Stef@1991",
+    "Pattern": "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$",
+    "IsMatch": true
+  },
+  {
+    "Expression": "sdsd",
+    "Pattern": "sds",
+    "IsMatch": true
+  },
+  {
+    "Expression": "sdsd",
+    "Pattern": "sdd",
+    "IsMatch": false
+  },
+  {
+    "Expression": "NOTES: Any notes or comments are optional.",
+    "Pattern": "\\b\\w+es\\b",
+    "IsMatch": false
+  },
+  {
+    "Expression": "NOTES: Any notes or comments are optional.",
+    "Pattern": "\\b\\w+es\\b",
+    "IsMatch": true
+  }
+]
